@@ -1,4 +1,4 @@
-![oryxso](./oryxso-full.png)
+![oryxso](./imgs/oryxso-full.png)
 --------------------------------
 
 ### Component List
