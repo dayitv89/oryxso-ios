@@ -1,0 +1,1127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		337E6CA4C287F1EA8F56D918 /* libPods-oryxso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 675D5FACA54655A61D09D623 /* libPods-oryxso.a */; };
+		5D4379E6367CD82DE6DC791C /* libPods-iosuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D87CBFFA80CFEF678B98B75 /* libPods-iosuiTests.a */; };
+		9767CEE075FDDDFD646454B4 /* libPods-iosuiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714AA885A83DC06F93AD8BB3 /* libPods-iosuiUITests.a */; };
+		A4E91A0D1EDC767B00D7FD47 /* oryxso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E91A031EDC767B00D7FD47 /* oryxso.framework */; };
+		A4E91A121EDC767B00D7FD47 /* oryxsoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A111EDC767B00D7FD47 /* oryxsoTests.m */; };
+		A4E91A141EDC767B00D7FD47 /* oryxso.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E91A061EDC767B00D7FD47 /* oryxso.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E91A611EDC770B00D7FD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A601EDC770B00D7FD47 /* main.m */; };
+		A4E91A641EDC770B00D7FD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A631EDC770B00D7FD47 /* AppDelegate.m */; };
+		A4E91A671EDC770B00D7FD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A661EDC770B00D7FD47 /* ViewController.m */; };
+		A4E91A6A1EDC770B00D7FD47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E91A681EDC770B00D7FD47 /* Main.storyboard */; };
+		A4E91A6D1EDC770B00D7FD47 /* iosui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A6B1EDC770B00D7FD47 /* iosui.xcdatamodeld */; };
+		A4E91A6F1EDC770B00D7FD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E91A6E1EDC770B00D7FD47 /* Assets.xcassets */; };
+		A4E91A721EDC770B00D7FD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E91A701EDC770B00D7FD47 /* LaunchScreen.storyboard */; };
+		A4E91A7D1EDC770B00D7FD47 /* iosuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A7C1EDC770B00D7FD47 /* iosuiTests.m */; };
+		A4E91A881EDC770B00D7FD47 /* iosuiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A871EDC770B00D7FD47 /* iosuiUITests.m */; };
+		A4E91A981EDC784D00D7FD47 /* OXRESTAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E91A961EDC784D00D7FD47 /* OXRESTAPIClient.h */; };
+		A4E91A991EDC784D00D7FD47 /* OXRESTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A971EDC784D00D7FD47 /* OXRESTAPIClient.m */; };
+		A4E91A9D1EDC809A00D7FD47 /* OXProjectConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E91A9B1EDC809A00D7FD47 /* OXProjectConfig.h */; };
+		A4E91A9E1EDC809A00D7FD47 /* OXProjectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E91A9C1EDC809A00D7FD47 /* OXProjectConfig.m */; };
+		ACE8CDA95A9AB45F48CB7805 /* libPods-oryxsoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE06B06AF1FFBC06AFF4947 /* libPods-oryxsoTests.a */; };
+		EDA2CBEFF1C6CB632A119DF1 /* libPods-iosui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F55386BCBE67419B25846BD /* libPods-iosui.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E91A0E1EDC767B00D7FD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E919FA1EDC767B00D7FD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E91A021EDC767B00D7FD47;
+			remoteInfo = oryxso;
+		};
+		A4E91A791EDC770B00D7FD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E919FA1EDC767B00D7FD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E91A5C1EDC770B00D7FD47;
+			remoteInfo = iosui;
+		};
+		A4E91A841EDC770B00D7FD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E919FA1EDC767B00D7FD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E91A5C1EDC770B00D7FD47;
+			remoteInfo = iosui;
+		};
+		A4E91A931EDC771100D7FD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E919FA1EDC767B00D7FD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E91A021EDC767B00D7FD47;
+			remoteInfo = oryxso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147DB91CA6649CAD56EC8806 /* Pods-iosui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosui/Pods-iosui.debug.xcconfig"; sourceTree = "<group>"; };
+		4D87CBFFA80CFEF678B98B75 /* libPods-iosuiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosuiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5242B0E1E90DE9BAF7CCC6FE /* Pods-iosuiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosuiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosuiUITests/Pods-iosuiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6668545ED29E4562071D346E /* Pods-iosui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosui.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosui/Pods-iosui.release.xcconfig"; sourceTree = "<group>"; };
+		675D5FACA54655A61D09D623 /* libPods-oryxso.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oryxso.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F55386BCBE67419B25846BD /* libPods-iosui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714AA885A83DC06F93AD8BB3 /* libPods-iosuiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosuiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865934E32B65A4C87B358C6A /* Pods-iosuiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosuiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosuiUITests/Pods-iosuiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F4247D69AC45C1F44BB311 /* Pods-iosuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosuiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosuiTests/Pods-iosuiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E91A031EDC767B00D7FD47 /* oryxso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = oryxso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E91A061EDC767B00D7FD47 /* oryxso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oryxso.h; sourceTree = "<group>"; };
+		A4E91A071EDC767B00D7FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E91A0C1EDC767B00D7FD47 /* oryxsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oryxsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E91A111EDC767B00D7FD47 /* oryxsoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oryxsoTests.m; sourceTree = "<group>"; };
+		A4E91A131EDC767B00D7FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E91A5D1EDC770B00D7FD47 /* iosui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E91A601EDC770B00D7FD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4E91A621EDC770B00D7FD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4E91A631EDC770B00D7FD47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4E91A651EDC770B00D7FD47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4E91A661EDC770B00D7FD47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4E91A691EDC770B00D7FD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4E91A6C1EDC770B00D7FD47 /* iosui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iosui.xcdatamodel; sourceTree = "<group>"; };
+		A4E91A6E1EDC770B00D7FD47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E91A711EDC770B00D7FD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4E91A731EDC770B00D7FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E91A781EDC770B00D7FD47 /* iosuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E91A7C1EDC770B00D7FD47 /* iosuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosuiTests.m; sourceTree = "<group>"; };
+		A4E91A7E1EDC770B00D7FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E91A831EDC770B00D7FD47 /* iosuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E91A871EDC770B00D7FD47 /* iosuiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosuiUITests.m; sourceTree = "<group>"; };
+		A4E91A891EDC770B00D7FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E91A961EDC784D00D7FD47 /* OXRESTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXRESTAPIClient.h; sourceTree = "<group>"; };
+		A4E91A971EDC784D00D7FD47 /* OXRESTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXRESTAPIClient.m; sourceTree = "<group>"; };
+		A4E91A9B1EDC809A00D7FD47 /* OXProjectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXProjectConfig.h; sourceTree = "<group>"; };
+		A4E91A9C1EDC809A00D7FD47 /* OXProjectConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXProjectConfig.m; sourceTree = "<group>"; };
+		B27ED3280C3CF0B6D2A3C00E /* Pods-oryxsoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oryxsoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oryxsoTests/Pods-oryxsoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA32BD6B8D6DED4ABC36FC8 /* Pods-oryxsoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oryxsoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oryxsoTests/Pods-oryxsoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE9DDCEB296D89E21814141 /* Pods-iosuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosuiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosuiTests/Pods-iosuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1B9BA963083903B753505A8 /* Pods-oryxso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oryxso.release.xcconfig"; path = "Pods/Target Support Files/Pods-oryxso/Pods-oryxso.release.xcconfig"; sourceTree = "<group>"; };
+		FBE06B06AF1FFBC06AFF4947 /* libPods-oryxsoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oryxsoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCA3B2300CB7ADE81987149 /* Pods-oryxso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oryxso.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oryxso/Pods-oryxso.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E919FF1EDC767B00D7FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337E6CA4C287F1EA8F56D918 /* libPods-oryxso.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A091EDC767B00D7FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A0D1EDC767B00D7FD47 /* oryxso.framework in Frameworks */,
+				ACE8CDA95A9AB45F48CB7805 /* libPods-oryxsoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A5A1EDC770B00D7FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA2CBEFF1C6CB632A119DF1 /* libPods-iosui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A751EDC770B00D7FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4379E6367CD82DE6DC791C /* libPods-iosuiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A801EDC770B00D7FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9767CEE075FDDDFD646454B4 /* libPods-iosuiUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D995F19450D63914FF13CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147DB91CA6649CAD56EC8806 /* Pods-iosui.debug.xcconfig */,
+				6668545ED29E4562071D346E /* Pods-iosui.release.xcconfig */,
+				87F4247D69AC45C1F44BB311 /* Pods-iosuiTests.debug.xcconfig */,
+				CDE9DDCEB296D89E21814141 /* Pods-iosuiTests.release.xcconfig */,
+				865934E32B65A4C87B358C6A /* Pods-iosuiUITests.debug.xcconfig */,
+				5242B0E1E90DE9BAF7CCC6FE /* Pods-iosuiUITests.release.xcconfig */,
+				FFCA3B2300CB7ADE81987149 /* Pods-oryxso.debug.xcconfig */,
+				E1B9BA963083903B753505A8 /* Pods-oryxso.release.xcconfig */,
+				B27ED3280C3CF0B6D2A3C00E /* Pods-oryxsoTests.debug.xcconfig */,
+				BBA32BD6B8D6DED4ABC36FC8 /* Pods-oryxsoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35547E4E1FA076D67564D99A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F55386BCBE67419B25846BD /* libPods-iosui.a */,
+				4D87CBFFA80CFEF678B98B75 /* libPods-iosuiTests.a */,
+				714AA885A83DC06F93AD8BB3 /* libPods-iosuiUITests.a */,
+				675D5FACA54655A61D09D623 /* libPods-oryxso.a */,
+				FBE06B06AF1FFBC06AFF4947 /* libPods-oryxsoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E919F91EDC767B00D7FD47 = {
+			isa = PBXGroup;
+			children = (
+				A4E91A051EDC767B00D7FD47 /* oryxso */,
+				A4E91A101EDC767B00D7FD47 /* oryxsoTests */,
+				A4E91A5E1EDC770B00D7FD47 /* iosui */,
+				A4E91A7B1EDC770B00D7FD47 /* iosuiTests */,
+				A4E91A861EDC770B00D7FD47 /* iosuiUITests */,
+				A4E91A041EDC767B00D7FD47 /* Products */,
+				08D995F19450D63914FF13CD /* Pods */,
+				35547E4E1FA076D67564D99A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E91A041EDC767B00D7FD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A031EDC767B00D7FD47 /* oryxso.framework */,
+				A4E91A0C1EDC767B00D7FD47 /* oryxsoTests.xctest */,
+				A4E91A5D1EDC770B00D7FD47 /* iosui.app */,
+				A4E91A781EDC770B00D7FD47 /* iosuiTests.xctest */,
+				A4E91A831EDC770B00D7FD47 /* iosuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E91A051EDC767B00D7FD47 /* oryxso */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A9A1EDC808600D7FD47 /* Config */,
+				A4E91A951EDC77E500D7FD47 /* Networking */,
+				A4E91A061EDC767B00D7FD47 /* oryxso.h */,
+				A4E91A071EDC767B00D7FD47 /* Info.plist */,
+			);
+			path = oryxso;
+			sourceTree = "<group>";
+		};
+		A4E91A101EDC767B00D7FD47 /* oryxsoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A111EDC767B00D7FD47 /* oryxsoTests.m */,
+				A4E91A131EDC767B00D7FD47 /* Info.plist */,
+			);
+			path = oryxsoTests;
+			sourceTree = "<group>";
+		};
+		A4E91A5E1EDC770B00D7FD47 /* iosui */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A621EDC770B00D7FD47 /* AppDelegate.h */,
+				A4E91A631EDC770B00D7FD47 /* AppDelegate.m */,
+				A4E91A651EDC770B00D7FD47 /* ViewController.h */,
+				A4E91A661EDC770B00D7FD47 /* ViewController.m */,
+				A4E91A681EDC770B00D7FD47 /* Main.storyboard */,
+				A4E91A6E1EDC770B00D7FD47 /* Assets.xcassets */,
+				A4E91A701EDC770B00D7FD47 /* LaunchScreen.storyboard */,
+				A4E91A731EDC770B00D7FD47 /* Info.plist */,
+				A4E91A6B1EDC770B00D7FD47 /* iosui.xcdatamodeld */,
+				A4E91A5F1EDC770B00D7FD47 /* Supporting Files */,
+			);
+			path = iosui;
+			sourceTree = "<group>";
+		};
+		A4E91A5F1EDC770B00D7FD47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A601EDC770B00D7FD47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E91A7B1EDC770B00D7FD47 /* iosuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A7C1EDC770B00D7FD47 /* iosuiTests.m */,
+				A4E91A7E1EDC770B00D7FD47 /* Info.plist */,
+			);
+			path = iosuiTests;
+			sourceTree = "<group>";
+		};
+		A4E91A861EDC770B00D7FD47 /* iosuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A871EDC770B00D7FD47 /* iosuiUITests.m */,
+				A4E91A891EDC770B00D7FD47 /* Info.plist */,
+			);
+			path = iosuiUITests;
+			sourceTree = "<group>";
+		};
+		A4E91A951EDC77E500D7FD47 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A961EDC784D00D7FD47 /* OXRESTAPIClient.h */,
+				A4E91A971EDC784D00D7FD47 /* OXRESTAPIClient.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A4E91A9A1EDC808600D7FD47 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A4E91A9B1EDC809A00D7FD47 /* OXProjectConfig.h */,
+				A4E91A9C1EDC809A00D7FD47 /* OXProjectConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4E91A001EDC767B00D7FD47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A9D1EDC809A00D7FD47 /* OXProjectConfig.h in Headers */,
+				A4E91A141EDC767B00D7FD47 /* oryxso.h in Headers */,
+				A4E91A981EDC784D00D7FD47 /* OXRESTAPIClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4E91A021EDC767B00D7FD47 /* oryxso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E91A171EDC767B00D7FD47 /* Build configuration list for PBXNativeTarget "oryxso" */;
+			buildPhases = (
+				AB7671B28855B1F794E95E2E /* [CP] Check Pods Manifest.lock */,
+				A4E919FE1EDC767B00D7FD47 /* Sources */,
+				A4E919FF1EDC767B00D7FD47 /* Frameworks */,
+				A4E91A001EDC767B00D7FD47 /* Headers */,
+				A4E91A011EDC767B00D7FD47 /* Resources */,
+				26B5CDDA2470A7F93ECB058C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oryxso;
+			productName = oryxso;
+			productReference = A4E91A031EDC767B00D7FD47 /* oryxso.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4E91A0B1EDC767B00D7FD47 /* oryxsoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E91A1A1EDC767B00D7FD47 /* Build configuration list for PBXNativeTarget "oryxsoTests" */;
+			buildPhases = (
+				A514B296A6143C6E6072DABD /* [CP] Check Pods Manifest.lock */,
+				A4E91A081EDC767B00D7FD47 /* Sources */,
+				A4E91A091EDC767B00D7FD47 /* Frameworks */,
+				A4E91A0A1EDC767B00D7FD47 /* Resources */,
+				92A0C8FC03B5F16C2C0D7AB5 /* [CP] Embed Pods Frameworks */,
+				CD75DEE2EE1599F2D2D7FF45 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E91A0F1EDC767B00D7FD47 /* PBXTargetDependency */,
+			);
+			name = oryxsoTests;
+			productName = oryxsoTests;
+			productReference = A4E91A0C1EDC767B00D7FD47 /* oryxsoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E91A5C1EDC770B00D7FD47 /* iosui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E91A8A1EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosui" */;
+			buildPhases = (
+				8A161F9C4EE7A9A01DC0BE96 /* [CP] Check Pods Manifest.lock */,
+				A4E91A591EDC770B00D7FD47 /* Sources */,
+				A4E91A5A1EDC770B00D7FD47 /* Frameworks */,
+				A4E91A5B1EDC770B00D7FD47 /* Resources */,
+				BBF597043FAFFF97BF0DD239 /* [CP] Embed Pods Frameworks */,
+				8B636D36848992C42D87469E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E91A941EDC771100D7FD47 /* PBXTargetDependency */,
+			);
+			name = iosui;
+			productName = iosui;
+			productReference = A4E91A5D1EDC770B00D7FD47 /* iosui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E91A771EDC770B00D7FD47 /* iosuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E91A8D1EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosuiTests" */;
+			buildPhases = (
+				DF1EDAFE7C04B4278D1C0A0A /* [CP] Check Pods Manifest.lock */,
+				A4E91A741EDC770B00D7FD47 /* Sources */,
+				A4E91A751EDC770B00D7FD47 /* Frameworks */,
+				A4E91A761EDC770B00D7FD47 /* Resources */,
+				258678886ED336A8DEAE2B18 /* [CP] Embed Pods Frameworks */,
+				F0B161C35BBAAA9DE74BE104 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E91A7A1EDC770B00D7FD47 /* PBXTargetDependency */,
+			);
+			name = iosuiTests;
+			productName = iosuiTests;
+			productReference = A4E91A781EDC770B00D7FD47 /* iosuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E91A821EDC770B00D7FD47 /* iosuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E91A901EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosuiUITests" */;
+			buildPhases = (
+				9CB0DA37BE81EC19E009DC28 /* [CP] Check Pods Manifest.lock */,
+				A4E91A7F1EDC770B00D7FD47 /* Sources */,
+				A4E91A801EDC770B00D7FD47 /* Frameworks */,
+				A4E91A811EDC770B00D7FD47 /* Resources */,
+				44ED94757780D6C74A983D3A /* [CP] Embed Pods Frameworks */,
+				20A618BF2692F3D32522DE95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E91A851EDC770B00D7FD47 /* PBXTargetDependency */,
+			);
+			name = iosuiUITests;
+			productName = iosuiUITests;
+			productReference = A4E91A831EDC770B00D7FD47 /* iosuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E919FA1EDC767B00D7FD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Oryxso workgroup.";
+				TargetAttributes = {
+					A4E91A021EDC767B00D7FD47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 62N2Y75LQG;
+						ProvisioningStyle = Automatic;
+					};
+					A4E91A0B1EDC767B00D7FD47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 62N2Y75LQG;
+						ProvisioningStyle = Automatic;
+					};
+					A4E91A5C1EDC770B00D7FD47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 62N2Y75LQG;
+						ProvisioningStyle = Automatic;
+					};
+					A4E91A771EDC770B00D7FD47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 62N2Y75LQG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4E91A5C1EDC770B00D7FD47;
+					};
+					A4E91A821EDC770B00D7FD47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 62N2Y75LQG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4E91A5C1EDC770B00D7FD47;
+					};
+				};
+			};
+			buildConfigurationList = A4E919FD1EDC767B00D7FD47 /* Build configuration list for PBXProject "oryxso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E919F91EDC767B00D7FD47;
+			productRefGroup = A4E91A041EDC767B00D7FD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E91A021EDC767B00D7FD47 /* oryxso */,
+				A4E91A0B1EDC767B00D7FD47 /* oryxsoTests */,
+				A4E91A5C1EDC770B00D7FD47 /* iosui */,
+				A4E91A771EDC770B00D7FD47 /* iosuiTests */,
+				A4E91A821EDC770B00D7FD47 /* iosuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E91A011EDC767B00D7FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A0A1EDC767B00D7FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A5B1EDC770B00D7FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A721EDC770B00D7FD47 /* LaunchScreen.storyboard in Resources */,
+				A4E91A6F1EDC770B00D7FD47 /* Assets.xcassets in Resources */,
+				A4E91A6A1EDC770B00D7FD47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A761EDC770B00D7FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A811EDC770B00D7FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20A618BF2692F3D32522DE95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosuiUITests/Pods-iosuiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		258678886ED336A8DEAE2B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosuiTests/Pods-iosuiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26B5CDDA2470A7F93ECB058C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oryxso/Pods-oryxso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44ED94757780D6C74A983D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosuiUITests/Pods-iosuiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A161F9C4EE7A9A01DC0BE96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B636D36848992C42D87469E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosui/Pods-iosui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A0C8FC03B5F16C2C0D7AB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oryxsoTests/Pods-oryxsoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB0DA37BE81EC19E009DC28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A514B296A6143C6E6072DABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7671B28855B1F794E95E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF597043FAFFF97BF0DD239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosui/Pods-iosui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD75DEE2EE1599F2D2D7FF45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oryxsoTests/Pods-oryxsoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1EDAFE7C04B4278D1C0A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B161C35BBAAA9DE74BE104 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosuiTests/Pods-iosuiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E919FE1EDC767B00D7FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A9E1EDC809A00D7FD47 /* OXProjectConfig.m in Sources */,
+				A4E91A991EDC784D00D7FD47 /* OXRESTAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A081EDC767B00D7FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A121EDC767B00D7FD47 /* oryxsoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A591EDC770B00D7FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A671EDC770B00D7FD47 /* ViewController.m in Sources */,
+				A4E91A641EDC770B00D7FD47 /* AppDelegate.m in Sources */,
+				A4E91A611EDC770B00D7FD47 /* main.m in Sources */,
+				A4E91A6D1EDC770B00D7FD47 /* iosui.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A741EDC770B00D7FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A7D1EDC770B00D7FD47 /* iosuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E91A7F1EDC770B00D7FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E91A881EDC770B00D7FD47 /* iosuiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E91A0F1EDC767B00D7FD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E91A021EDC767B00D7FD47 /* oryxso */;
+			targetProxy = A4E91A0E1EDC767B00D7FD47 /* PBXContainerItemProxy */;
+		};
+		A4E91A7A1EDC770B00D7FD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E91A5C1EDC770B00D7FD47 /* iosui */;
+			targetProxy = A4E91A791EDC770B00D7FD47 /* PBXContainerItemProxy */;
+		};
+		A4E91A851EDC770B00D7FD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E91A5C1EDC770B00D7FD47 /* iosui */;
+			targetProxy = A4E91A841EDC770B00D7FD47 /* PBXContainerItemProxy */;
+		};
+		A4E91A941EDC771100D7FD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E91A021EDC767B00D7FD47 /* oryxso */;
+			targetProxy = A4E91A931EDC771100D7FD47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4E91A681EDC770B00D7FD47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E91A691EDC770B00D7FD47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E91A701EDC770B00D7FD47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E91A711EDC770B00D7FD47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E91A151EDC767B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4E91A161EDC767B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4E91A181EDC767B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCA3B2300CB7ADE81987149 /* Pods-oryxso.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = oryxso/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.oryxso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4E91A191EDC767B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B9BA963083903B753505A8 /* Pods-oryxso.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = oryxso/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.oryxso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4E91A1B1EDC767B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27ED3280C3CF0B6D2A3C00E /* Pods-oryxsoTests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = oryxsoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.oryxsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4E91A1C1EDC767B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA32BD6B8D6DED4ABC36FC8 /* Pods-oryxsoTests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = oryxsoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.oryxsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4E91A8B1EDC770B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147DB91CA6649CAD56EC8806 /* Pods-iosui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4E91A8C1EDC770B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6668545ED29E4562071D346E /* Pods-iosui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4E91A8E1EDC770B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F4247D69AC45C1F44BB311 /* Pods-iosuiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosui.app/iosui";
+			};
+			name = Debug;
+		};
+		A4E91A8F1EDC770B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE9DDCEB296D89E21814141 /* Pods-iosuiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosui.app/iosui";
+			};
+			name = Release;
+		};
+		A4E91A911EDC770B00D7FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865934E32B65A4C87B358C6A /* Pods-iosuiUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iosui;
+			};
+			name = Debug;
+		};
+		A4E91A921EDC770B00D7FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5242B0E1E90DE9BAF7CCC6FE /* Pods-iosuiUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62N2Y75LQG;
+				INFOPLIST_FILE = iosuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkgroup.iosuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iosui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E919FD1EDC767B00D7FD47 /* Build configuration list for PBXProject "oryxso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A151EDC767B00D7FD47 /* Debug */,
+				A4E91A161EDC767B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E91A171EDC767B00D7FD47 /* Build configuration list for PBXNativeTarget "oryxso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A181EDC767B00D7FD47 /* Debug */,
+				A4E91A191EDC767B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E91A1A1EDC767B00D7FD47 /* Build configuration list for PBXNativeTarget "oryxsoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A1B1EDC767B00D7FD47 /* Debug */,
+				A4E91A1C1EDC767B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E91A8A1EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A8B1EDC770B00D7FD47 /* Debug */,
+				A4E91A8C1EDC770B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E91A8D1EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A8E1EDC770B00D7FD47 /* Debug */,
+				A4E91A8F1EDC770B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E91A901EDC770B00D7FD47 /* Build configuration list for PBXNativeTarget "iosuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E91A911EDC770B00D7FD47 /* Debug */,
+				A4E91A921EDC770B00D7FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4E91A6B1EDC770B00D7FD47 /* iosui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4E91A6C1EDC770B00D7FD47 /* iosui.xcdatamodel */,
+			);
+			currentVersion = A4E91A6C1EDC770B00D7FD47 /* iosui.xcdatamodel */;
+			path = iosui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4E919FA1EDC767B00D7FD47 /* Project object */;
+}
