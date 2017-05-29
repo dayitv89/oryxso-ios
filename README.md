@@ -1,5 +1,5 @@
-# oryxso-ios ![oryxso](./oryxso.png)
-Rapid development library for iOS Project
+![oryxso](./oryxso-full.png)
+--------------------------------
 
 ### Component List
 - [ ] Networking (AFNetworking)
